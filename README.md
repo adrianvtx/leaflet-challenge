@@ -1,1 +1,3 @@
-# leaflet-challenge
+# leaflet-challenge repository
+
+Leaflet Challenge
