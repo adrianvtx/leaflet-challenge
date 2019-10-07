@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="SELECT" id="SELECT">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="id" type="string"></SimpleField>
+	<SimpleField name="mag" type="float"></SimpleField>
+	<SimpleField name="place" type="string"></SimpleField>
+	<SimpleField name="time" type="float"></SimpleField>
+	<SimpleField name="updated" type="float"></SimpleField>
+	<SimpleField name="tz" type="int"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="detail" type="string"></SimpleField>
+	<SimpleField name="felt" type="int"></SimpleField>
+	<SimpleField name="cdi" type="float"></SimpleField>
+	<SimpleField name="mmi" type="float"></SimpleField>
+	<SimpleField name="alert" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="tsunami" type="int"></SimpleField>
+	<SimpleField name="sig" type="int"></SimpleField>
+	<SimpleField name="net" type="string"></SimpleField>
+	<SimpleField name="code" type="string"></SimpleField>
+	<SimpleField name="ids" type="string"></SimpleField>
+	<SimpleField name="sources" type="string"></SimpleField>
+	<SimpleField name="types" type="string"></SimpleField>
+	<SimpleField name="nst" type="int"></SimpleField>
+	<SimpleField name="dmin" type="float"></SimpleField>
+	<SimpleField name="rms" type="float"></SimpleField>
+	<SimpleField name="gap" type="float"></SimpleField>
+	<SimpleField name="magType" type="string"></SimpleField>
+</Schema>
+<Folder><name>SELECT</name>
+  <Placemark>
+	<name>M 1.4 - 98km WNW of Fort Yukon, Alaska</name>
+	<description>earthquake</description>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="id">ak019cts71bw</SimpleData>
+		<SimpleData name="mag">1.4</SimpleData>
+		<SimpleData name="place">98km WNW of Fort Yukon, Alaska</SimpleData>
+		<SimpleData name="time">1570400807074</SimpleData>
+		<SimpleData name="updated">1570401099307</SimpleData>
+		<SimpleData name="tz">-540</SimpleData>
+		<SimpleData name="url">https://earthquake.usgs.gov/earthquakes/eventpage/ak019cts71bw</SimpleData>
+		<SimpleData name="detail">https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak019cts71bw.geojson</SimpleData>
+		<SimpleData name="status">automatic</SimpleData>
+		<SimpleData name="tsunami">0</SimpleData>
+		<SimpleData name="sig">30</SimpleData>
+		<SimpleData name="net">ak</SimpleData>
+		<SimpleData name="code">019cts71bw</SimpleData>
+		<SimpleData name="ids">,ak019cts71bw,</SimpleData>
+		<SimpleData name="sources">,ak,</SimpleData>
+		<SimpleData name="types">,geoserve,origin,</SimpleData>
+		<SimpleData name="rms">1.18</SimpleData>
+		<SimpleData name="magType">ml</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-147.4152,66.8089,5.9</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>M 1.2 - 4km ENE of Mammoth Lakes, CA</name>
+	<description>earthquake</description>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="id">nc73287620</SimpleData>
+		<SimpleData name="mag">1.2</SimpleData>
+		<SimpleData name="place">4km ENE of Mammoth Lakes, CA</SimpleData>
+		<SimpleData name="time">1570400534990</SimpleData>
+		<SimpleData name="updated">1570401421955</SimpleData>
+		<SimpleData name="tz">-480</SimpleData>
+		<SimpleData name="url">https://earthquake.usgs.gov/earthquakes/eventpage/nc73287620</SimpleData>
+		<SimpleData name="detail">https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73287620.geojson</SimpleData>
+		<SimpleData name="status">automatic</SimpleData>
+		<SimpleData name="tsunami">0</SimpleData>
+		<SimpleData name="sig">22</SimpleData>
+		<SimpleData name="net">nc</SimpleData>
+		<SimpleData name="code">73287620</SimpleData>
+		<SimpleData name="ids">,nc73287620,</SimpleData>
+		<SimpleData name="sources">,nc,</SimpleData>
+		<SimpleData name="types">,geoserve,nearby-cities,origin,phase-data,scitech-link,</SimpleData>
+		<SimpleData name="nst">7</SimpleData>
+		<SimpleData name="dmin">0.01121</SimpleData>
+		<SimpleData name="rms">0.01</SimpleData>
+		<SimpleData name="gap">158</SimpleData>
+		<SimpleData name="magType">md</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-118.9388351,37.6548347,4.61</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>M 1.0 - 13km SW of Searles Valley, CA</name>
+	<description>earthquake</description>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="id">ci39115344</SimpleData>
+		<SimpleData name="mag">1.01</SimpleData>
+		<SimpleData name="place">13km SW of Searles Valley, CA</SimpleData>
+		<SimpleData name="time">1570399800110</SimpleData>
+		<SimpleData name="updated">1570400022223</SimpleData>
+		<SimpleData name="tz">-480</SimpleData>
+		<SimpleData name="url">https://earthquake.usgs.gov/earthquakes/eventpage/ci39115344</SimpleData>
+		<SimpleData name="detail">https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39115344.geojson</SimpleData>
+		<SimpleData name="status">automatic</SimpleData>
+		<SimpleData name="tsunami">0</SimpleData>
+		<SimpleData name="sig">16</SimpleData>
+		<SimpleData name="net">ci</SimpleData>
+		<SimpleData name="code">39115344</SimpleData>
+		<SimpleData name="ids">,ci39115344,</SimpleData>
+		<SimpleData name="sources">,ci,</SimpleData>
+		<SimpleData name="types">,geoserve,nearby-cities,origin,phase-data,scitech-link,</SimpleData>
+		<SimpleData name="nst">17</SimpleData>
+		<SimpleData name="dmin">0.06772</SimpleData>
+		<SimpleData name="rms">0.17</SimpleData>
+		<SimpleData name="gap">101</SimpleData>
+		<SimpleData name="magType">ml</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-117.5048333,35.68,1.48</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>M 1.2 - 7km SW of Healy, Alaska</name>
+	<description>earthquake</description>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="id">ak019cts1wc4</SimpleData>
+		<SimpleData name="mag">1.2</SimpleData>
+		<SimpleData name="place">7km SW of Healy, Alaska</SimpleData>
+		<SimpleData name="time">1570399369484</SimpleData>
+		<SimpleData name="updated">1570400055311</SimpleData>
+		<SimpleData name="tz">-540</SimpleData>
+		<SimpleData name="url">https://earthquake.usgs.gov/earthquakes/eventpage/ak019cts1wc4</SimpleData>
+		<SimpleData name="detail">https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak019cts1wc4.geojson</SimpleData>
+		<SimpleData name="status">automatic</SimpleData>
+		<SimpleData name="tsunami">0</SimpleData>
+		<SimpleData name="sig">22</SimpleData>
+		<SimpleData name="net">ak</SimpleData>
+		<SimpleData name="code">019cts1wc4</SimpleData>
+		<SimpleData name="ids">,ak019cts1wc4,</SimpleData>
+		<SimpleData name="sources">,ak,</SimpleData>
+		<SimpleData name="types">,geoserve,origin,</SimpleData>
+		<SimpleData name="rms">0.58</SimpleData>
+		<SimpleData name="magType">ml</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-149.0917,63.812,11.5</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>M 2.0 - 100km W of Cantwell, Alaska</name>
+	<description>earthquake</description>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="id">ak019ctrqfmm</SimpleData>
+		<SimpleData name="mag">2</SimpleData>
+		<SimpleData name="place">100km W of Cantwell, Alaska</SimpleData>
+		<SimpleData name="time">1570398540723</SimpleData>
+		<SimpleData name="updated">1570398830539</SimpleData>
+		<SimpleData name="tz">-540</SimpleData>
+		<SimpleData name="url">https://earthquake.usgs.gov/earthquakes/eventpage/ak019ctrqfmm</SimpleData>
+		<SimpleData name="detail">https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak019ctrqfmm.geojson</SimpleData>
+		<SimpleData name="status">automatic</SimpleData>
+		<SimpleData name="tsunami">0</SimpleData>
+		<SimpleData name="sig">62</SimpleData>
+		<SimpleData name="net">ak</SimpleData>
+		<SimpleData name="code">019ctrqfmm</SimpleData>
+		<SimpleData name="ids">,ak019ctrqfmm,</SimpleData>
+		<SimpleData name="sources">,ak,</SimpleData>
+		<SimpleData name="types">,geoserve,origin,</SimpleData>
+		<SimpleData name="rms">1.14</SimpleData>
+		<SimpleData name="magType">ml</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-150.9165,63.2103,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>M 2.2 - 108km N of Kodiak, Alaska</name>
+	<description>earthquake</description>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="id">ak019ctrnw4y</SimpleData>
+		<SimpleData name="mag">2.2</SimpleData>
+		<SimpleData name="place">108km N of Kodiak, Alaska</SimpleData>
+		<SimpleData name="time">1570397834961</SimpleData>
+		<SimpleData name="updated">1570398177420</SimpleData>
+		<SimpleData name="tz">-600</SimpleData>
+		<SimpleData name="url">https://earthquake.usgs.gov/earthquakes/eventpage/ak019ctrnw4y</SimpleData>
+		<SimpleData name="detail">https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak019ctrnw4y.geojson</SimpleData>
+		<SimpleData name="status">automatic</SimpleData>
+		<SimpleData name="tsunami">0</SimpleData>
+		<SimpleData name="sig">74</SimpleData>
+		<SimpleData name="net">ak</SimpleData>
+		<SimpleData name="code">019ctrnw4y</SimpleData>
+		<SimpleData name="ids">,ak019ctrnw4y,</SimpleData>
+		<SimpleData name="sources">,ak,</SimpleData>
+		<SimpleData name="types">,geoserve,origin,</SimpleData>
+		<SimpleData name="rms">0.38</SimpleData>
+		<SimpleData name="magType">ml</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-152.6669,58.7584,60</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>M 1.9 - 49km E of Yakutat, Alaska</name>
+	<description>earthquake</description>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="id">ak019ctrnc5x</SimpleData>
+		<SimpleData name="mag">1.9</SimpleData>
+		<SimpleData name="place">49km E of Yakutat, Alaska</SimpleData>
+		<SimpleData name="time">1570397696378</SimpleData>
+		<SimpleData name="updated">1570398076053</SimpleData>
+		<SimpleData name="tz">-540</SimpleData>
+		<SimpleData name="url">https://earthquake.usgs.gov/earthquakes/eventpage/ak019ctrnc5x</SimpleData>
+		<SimpleData name="detail">https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak019ctrnc5x.geojson</SimpleData>
+		<SimpleData name="status">automatic</SimpleData>
+		<SimpleData name="tsunami">0</SimpleData>
+		<SimpleData name="sig">56</SimpleData>
+		<SimpleData name="net">ak</SimpleData>
+		<SimpleData name="code">019ctrnc5x</SimpleData>
+		<SimpleData name="ids">,ak019ctrnc5x,</SimpleData>
+		<SimpleData name="sources">,ak,</SimpleData>
+		<SimpleData name="types">,geoserve,origin,</SimpleData>
+		<SimpleData name="rms">0.37</SimpleData>
+		<SimpleData name="magType">ml</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-138.8547,59.5506,7.1</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>M 1.0 - 10km ENE of Coso Junction, CA</name>
+	<description>earthquake</description>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="id">ci39115312</SimpleData>
+		<SimpleData name="mag">0.99</SimpleData>
+		<SimpleData name="place">10km ENE of Coso Junction, CA</SimpleData>
+		<SimpleData name="time">1570397175680</SimpleData>
+		<SimpleData name="updated">1570397404001</SimpleData>
+		<SimpleData name="tz">-480</SimpleData>
+		<SimpleData name="url">https://earthquake.usgs.gov/earthquakes/eventpage/ci39115312</SimpleData>
+		<SimpleData name="detail">https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39115312.geojson</SimpleData>
+		<SimpleData name="status">automatic</SimpleData>
+		<SimpleData name="tsunami">0</SimpleData>
+		<SimpleData name="sig">15</SimpleData>
+		<SimpleData name="net">ci</SimpleData>
+		<SimpleData name="code">39115312</SimpleData>
+		<SimpleData name="ids">,ci39115312,</SimpleData>
+		<SimpleData name="sources">,ci,</SimpleData>
+		<SimpleData name="types">,geoserve,nearby-cities,origin,phase-data,scitech-link,</SimpleData>
+		<SimpleData name="nst">16</SimpleData>
+		<SimpleData name="dmin">0.02943</SimpleData>
+		<SimpleData name="rms">0.14</SimpleData>
+		<SimpleData name="gap">85</SimpleData>
+		<SimpleData name="magType">ml</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-117.8575,36.0881667,5.38</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>M 2.2 - 15km SSW of Searles Valley, CA</name>
+	<description>earthquake</description>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="id">ci39115304</SimpleData>
+		<SimpleData name="mag">2.17</SimpleData>
+		<SimpleData name="place">15km SSW of Searles Valley, CA</SimpleData>
+		<SimpleData name="time">1570397007040</SimpleData>
+		<SimpleData name="updated">1570397641990</SimpleData>
+		<SimpleData name="tz">-480</SimpleData>
+		<SimpleData name="url">https://earthquake.usgs.gov/earthquakes/eventpage/ci39115304</SimpleData>
+		<SimpleData name="detail">https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39115304.geojson</SimpleData>
+		<SimpleData name="status">automatic</SimpleData>
+		<SimpleData name="tsunami">0</SimpleData>
+		<SimpleData name="sig">72</SimpleData>
+		<SimpleData name="net">ci</SimpleData>
+		<SimpleData name="code">39115304</SimpleData>
+		<SimpleData name="ids">,ci39115304,</SimpleData>
+		<SimpleData name="sources">,ci,</SimpleData>
+		<SimpleData name="types">,focal-mechanism,geoserve,nearby-cities,origin,phase-data,scitech-link,</SimpleData>
+		<SimpleData name="nst">33</SimpleData>
+		<SimpleData name="dmin">0.03179</SimpleData>
+		<SimpleData name="rms">0.15</SimpleData>
+		<SimpleData name="gap">75</SimpleData>
+		<SimpleData name="magType">ml</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-117.4463333,35.6391667,4.44</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>M 4.7 - 12km NNE of Farallon de Pajaros, Northern Mariana Islands</name>
+	<description>earthquake</description>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="id">us70005rf2</SimpleData>
+		<SimpleData name="mag">4.7</SimpleData>
+		<SimpleData name="place">12km NNE of Farallon de Pajaros, Northern Mariana Islands</SimpleData>
+		<SimpleData name="time">1570396860867</SimpleData>
+		<SimpleData name="updated">1570397790040</SimpleData>
+		<SimpleData name="tz">600</SimpleData>
+		<SimpleData name="url">https://earthquake.usgs.gov/earthquakes/eventpage/us70005rf2</SimpleData>
+		<SimpleData name="detail">https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us70005rf2.geojson</SimpleData>
+		<SimpleData name="status">reviewed</SimpleData>
+		<SimpleData name="tsunami">0</SimpleData>
+		<SimpleData name="sig">340</SimpleData>
+		<SimpleData name="net">us</SimpleData>
+		<SimpleData name="code">70005rf2</SimpleData>
+		<SimpleData name="ids">,us70005rf2,</SimpleData>
+		<SimpleData name="sources">,us,</SimpleData>
+		<SimpleData name="types">,geoserve,origin,phase-data,</SimpleData>
+		<SimpleData name="dmin">5.43</SimpleData>
+		<SimpleData name="rms">0.64</SimpleData>
+		<SimpleData name="gap">144</SimpleData>
+		<SimpleData name="magType">mb</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.9436,20.6405,119.94</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>M 1.5 - 38km NNW of Valdez, Alaska</name>
+	<description>earthquake</description>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="id">ak019ctrjdnc</SimpleData>
+		<SimpleData name="mag">1.5</SimpleData>
+		<SimpleData name="place">38km NNW of Valdez, Alaska</SimpleData>
+		<SimpleData name="time">1570396569239</SimpleData>
+		<SimpleData name="updated">1570396870544</SimpleData>
+		<SimpleData name="tz">-540</SimpleData>
+		<SimpleData name="url">https://earthquake.usgs.gov/earthquakes/eventpage/ak019ctrjdnc</SimpleData>
+		<SimpleData name="detail">https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak019ctrjdnc.geojson</SimpleData>
+		<SimpleData name="status">automatic</SimpleData>
+		<SimpleData name="tsunami">0</SimpleData>
+		<SimpleData name="sig">35</SimpleData>
+		<SimpleData name="net">ak</SimpleData>
+		<SimpleData name="code">019ctrjdnc</SimpleData>
+		<SimpleData name="ids">,ak019ctrjdnc,</SimpleData>
+		<SimpleData name="sources">,ak,</SimpleData>
+		<SimpleData name="types">,geoserve,origin,</SimpleData>
+		<SimpleData name="rms">0.6</SimpleData>
+		<SimpleData name="magType">ml</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-146.5546,61.4646,26.4</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>M 2.1 - 9km NNW of Borrego Springs, CA</name>
+	<description>earthquake</description>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="id">ci39115280</SimpleData>
+		<SimpleData name="mag">2.05</SimpleData>
+		<SimpleData name="place">9km NNW of Borrego Springs, CA</SimpleData>
+		<SimpleData name="time">1570396016620</SimpleData>
+		<SimpleData name="updated">1570396673900</SimpleData>
+		<SimpleData name="tz">-480</SimpleData>
+		<SimpleData name="url">https://earthquake.usgs.gov/earthquakes/eventpage/ci39115280</SimpleData>
+		<SimpleData name="detail">https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39115280.geojson</SimpleData>
+		<SimpleData name="status">automatic</SimpleData>
+		<SimpleData name="tsunami">0</SimpleData>
+		<SimpleData name="sig">65</SimpleData>
+		<SimpleData name="net">ci</SimpleData>
+		<SimpleData name="code">39115280</SimpleData>
+		<SimpleData name="ids">,ci39115280,</SimpleData>
+		<SimpleData name="sources">,ci,</SimpleData>
+		<SimpleData name="types">,focal-mechanism,geoserve,nearby-cities,origin,phase-data,scitech-link,</SimpleData>
+		<SimpleData name="nst">69</SimpleData>
+		<SimpleData name="dmin">0.0569</SimpleData>
+		<SimpleData name="rms">0.24</SimpleData>
+		<SimpleData name="gap">42</SimpleData>
+		<SimpleData name="magType">ml</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-116.4208333,33.3251667,5.81</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>M 2.2 - 5km W of Huron, CA</name>
+	<description>earthquake</description>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="id">nc73287585</SimpleData>
+		<SimpleData name="mag">2.21</SimpleData>
+		<SimpleData name="place">5km W of Huron, CA</SimpleData>
+		<SimpleData name="time">1570395760290</SimpleData>
+		<SimpleData name="updated">1570396865671</SimpleData>
+		<SimpleData name="tz">-480</SimpleData>
+		<SimpleData name="url">https://earthquake.usgs.gov/earthquakes/eventpage/nc73287585</SimpleData>
+		<SimpleData name="detail">https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73287585.geojson</SimpleData>
+		<SimpleData name="status">automatic</SimpleData>
+		<SimpleData name="tsunami">0</SimpleData>
+		<SimpleData name="sig">75</SimpleData>
+		<SimpleData name="net">nc</SimpleData>
+		<SimpleData name="code">73287585</SimpleData>
+		<SimpleData name="ids">,nc73287585,</SimpleData>
+		<SimpleData name="sources">,nc,</SimpleData>
+		<SimpleData name="types">,geoserve,nearby-cities,origin,phase-data,scitech-link,</SimpleData>
+		<SimpleData name="nst">7</SimpleData>
+		<SimpleData name="dmin">0.1431</SimpleData>
+		<SimpleData name="rms">0.02</SimpleData>
+		<SimpleData name="gap">188</SimpleData>
+		<SimpleData name="magType">md</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-120.1631699,36.1969986,13.84</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>M 1.4 - 16km SSE of Trona, CA</name>
+	<description>earthquake</description>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="id">ci39115256</SimpleData>
+		<SimpleData name="mag">1.39</SimpleData>
+		<SimpleData name="place">16km SSE of Trona, CA</SimpleData>
+		<SimpleData name="time">1570395350540</SimpleData>
+		<SimpleData name="updated">1570395573765</SimpleData>
+		<SimpleData name="tz">-480</SimpleData>
+		<SimpleData name="url">https://earthquake.usgs.gov/earthquakes/eventpage/ci39115256</SimpleData>
+		<SimpleData name="detail">https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39115256.geojson</SimpleData>
+		<SimpleData name="status">automatic</SimpleData>
+		<SimpleData name="tsunami">0</SimpleData>
+		<SimpleData name="sig">30</SimpleData>
+		<SimpleData name="net">ci</SimpleData>
+		<SimpleData name="code">39115256</SimpleData>
+		<SimpleData name="ids">,ci39115256,</SimpleData>
+		<SimpleData name="sources">,ci,</SimpleData>
+		<SimpleData name="types">,geoserve,nearby-cities,origin,phase-data,scitech-link,</SimpleData>
+		<SimpleData name="nst">14</SimpleData>
+		<SimpleData name="dmin">0.04223</SimpleData>
+		<SimpleData name="rms">0.26</SimpleData>
+		<SimpleData name="gap">189</SimpleData>
+		<SimpleData name="magType">ml</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-117.3103333,35.627,2.93</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>M 1.1 - 14km NE of Ridgecrest, CA</name>
+	<description>earthquake</description>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="id">ci39115224</SimpleData>
+		<SimpleData name="mag">1.09</SimpleData>
+		<SimpleData name="place">14km NE of Ridgecrest, CA</SimpleData>
+		<SimpleData name="time">1570393786610</SimpleData>
+		<SimpleData name="updated">1570394002045</SimpleData>
+		<SimpleData name="tz">-480</SimpleData>
+		<SimpleData name="url">https://earthquake.usgs.gov/earthquakes/eventpage/ci39115224</SimpleData>
+		<SimpleData name="detail">https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39115224.geojson</SimpleData>
+		<SimpleData name="status">automatic</SimpleData>
+		<SimpleData name="tsunami">0</SimpleData>
+		<SimpleData name="sig">18</SimpleData>
+		<SimpleData name="net">ci</SimpleData>
+		<SimpleData name="code">39115224</SimpleData>
+		<SimpleData name="ids">,ci39115224,</SimpleData>
+		<SimpleData name="sources">,ci,</SimpleData>
+		<SimpleData name="types">,geoserve,nearby-cities,origin,phase-data,scitech-link,</SimpleData>
+		<SimpleData name="nst">24</SimpleData>
+		<SimpleData name="dmin">0.08233</SimpleData>
+		<SimpleData name="rms">0.15</SimpleData>
+		<SimpleData name="gap">101</SimpleData>
+		<SimpleData name="magType">ml</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-117.5543333,35.7036667,7.63</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>M 1.4 - 72km WNW of Cape Yakataga, Alaska</name>
+	<description>earthquake</description>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="id">ak019ctqzou1</SimpleData>
+		<SimpleData name="mag">1.4</SimpleData>
+		<SimpleData name="place">72km WNW of Cape Yakataga, Alaska</SimpleData>
+		<SimpleData name="time">1570393457792</SimpleData>
+		<SimpleData name="updated">1570393779746</SimpleData>
+		<SimpleData name="tz">-540</SimpleData>
+		<SimpleData name="url">https://earthquake.usgs.gov/earthquakes/eventpage/ak019ctqzou1</SimpleData>
+		<SimpleData name="detail">https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak019ctqzou1.geojson</SimpleData>
+		<SimpleData name="status">automatic</SimpleData>
+		<SimpleData name="tsunami">0</SimpleData>
+		<SimpleData name="sig">30</SimpleData>
+		<SimpleData name="net">ak</SimpleData>
+		<SimpleData name="code">019ctqzou1</SimpleData>
+		<SimpleData name="ids">,ak019ctqzou1,</SimpleData>
+		<SimpleData name="sources">,ak,</SimpleData>
+		<SimpleData name="types">,geoserve,origin,</SimpleData>
+		<SimpleData name="rms">1.21</SimpleData>
+		<SimpleData name="magType">ml</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-143.5726,60.3765,55</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>M 1.1 - 5km S of Redlands, CA</name>
+	<description>earthquake</description>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="id">ci39115208</SimpleData>
+		<SimpleData name="mag">1.11</SimpleData>
+		<SimpleData name="place">5km S of Redlands, CA</SimpleData>
+		<SimpleData name="time">1570393165450</SimpleData>
+		<SimpleData name="updated">1570393383534</SimpleData>
+		<SimpleData name="tz">-480</SimpleData>
+		<SimpleData name="url">https://earthquake.usgs.gov/earthquakes/eventpage/ci39115208</SimpleData>
+		<SimpleData name="detail">https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39115208.geojson</SimpleData>
+		<SimpleData name="status">automatic</SimpleData>
+		<SimpleData name="tsunami">0</SimpleData>
+		<SimpleData name="sig">19</SimpleData>
+		<SimpleData name="net">ci</SimpleData>
+		<SimpleData name="code">39115208</SimpleData>
+		<SimpleData name="ids">,ci39115208,</SimpleData>
+		<SimpleData name="sources">,ci,</SimpleData>
+		<SimpleData name="types">,geoserve,nearby-cities,origin,phase-data,scitech-link,</SimpleData>
+		<SimpleData name="nst">39</SimpleData>
+		<SimpleData name="dmin">0.1196</SimpleData>
+		<SimpleData name="rms">0.18</SimpleData>
+		<SimpleData name="gap">48</SimpleData>
+		<SimpleData name="magType">ml</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-117.1905,34.0143333,13.31</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>M 2.0 - 24km N of Ridgecrest, CA</name>
+	<description>earthquake</description>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="id">ci39115200</SimpleData>
+		<SimpleData name="mag">2.03</SimpleData>
+		<SimpleData name="place">24km N of Ridgecrest, CA</SimpleData>
+		<SimpleData name="time">1570392961070</SimpleData>
+		<SimpleData name="updated">1570393598170</SimpleData>
+		<SimpleData name="tz">-480</SimpleData>
+		<SimpleData name="url">https://earthquake.usgs.gov/earthquakes/eventpage/ci39115200</SimpleData>
+		<SimpleData name="detail">https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39115200.geojson</SimpleData>
+		<SimpleData name="status">automatic</SimpleData>
+		<SimpleData name="tsunami">0</SimpleData>
+		<SimpleData name="sig">63</SimpleData>
+		<SimpleData name="net">ci</SimpleData>
+		<SimpleData name="code">39115200</SimpleData>
+		<SimpleData name="ids">,ci39115200,</SimpleData>
+		<SimpleData name="sources">,ci,</SimpleData>
+		<SimpleData name="types">,focal-mechanism,geoserve,nearby-cities,origin,phase-data,scitech-link,</SimpleData>
+		<SimpleData name="nst">32</SimpleData>
+		<SimpleData name="dmin">0.05555</SimpleData>
+		<SimpleData name="rms">0.19</SimpleData>
+		<SimpleData name="gap">40</SimpleData>
+		<SimpleData name="magType">ml</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-117.6625,35.833,2.67</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>M 1.7 - 13km NNE of San Pasqual, CA</name>
+	<description>earthquake</description>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="id">ci39115192</SimpleData>
+		<SimpleData name="mag">1.66</SimpleData>
+		<SimpleData name="place">13km NNE of San Pasqual, CA</SimpleData>
+		<SimpleData name="time">1570392798610</SimpleData>
+		<SimpleData name="updated">1570393030500</SimpleData>
+		<SimpleData name="tz">-480</SimpleData>
+		<SimpleData name="url">https://earthquake.usgs.gov/earthquakes/eventpage/ci39115192</SimpleData>
+		<SimpleData name="detail">https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39115192.geojson</SimpleData>
+		<SimpleData name="status">automatic</SimpleData>
+		<SimpleData name="tsunami">0</SimpleData>
+		<SimpleData name="sig">42</SimpleData>
+		<SimpleData name="net">ci</SimpleData>
+		<SimpleData name="code">39115192</SimpleData>
+		<SimpleData name="ids">,ci39115192,</SimpleData>
+		<SimpleData name="sources">,ci,</SimpleData>
+		<SimpleData name="types">,geoserve,nearby-cities,origin,phase-data,scitech-link,</SimpleData>
+		<SimpleData name="nst">9</SimpleData>
+		<SimpleData name="dmin">0.264</SimpleData>
+		<SimpleData name="rms">0.22</SimpleData>
+		<SimpleData name="gap">85</SimpleData>
+		<SimpleData name="magType">ml</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-116.8845,33.1896667,18.31</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>M 2.3 - 18km N of Borrego Springs, CA</name>
+	<description>earthquake</description>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="id">ci39115184</SimpleData>
+		<SimpleData name="mag">2.32</SimpleData>
+		<SimpleData name="place">18km N of Borrego Springs, CA</SimpleData>
+		<SimpleData name="time">1570392685260</SimpleData>
+		<SimpleData name="updated">1570393354170</SimpleData>
+		<SimpleData name="tz">-480</SimpleData>
+		<SimpleData name="url">https://earthquake.usgs.gov/earthquakes/eventpage/ci39115184</SimpleData>
+		<SimpleData name="detail">https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39115184.geojson</SimpleData>
+		<SimpleData name="status">automatic</SimpleData>
+		<SimpleData name="tsunami">0</SimpleData>
+		<SimpleData name="sig">83</SimpleData>
+		<SimpleData name="net">ci</SimpleData>
+		<SimpleData name="code">39115184</SimpleData>
+		<SimpleData name="ids">,ci39115184,</SimpleData>
+		<SimpleData name="sources">,ci,</SimpleData>
+		<SimpleData name="types">,focal-mechanism,geoserve,nearby-cities,origin,phase-data,scitech-link,</SimpleData>
+		<SimpleData name="nst">65</SimpleData>
+		<SimpleData name="dmin">0.07851</SimpleData>
+		<SimpleData name="rms">0.23</SimpleData>
+		<SimpleData name="gap">31</SimpleData>
+		<SimpleData name="magType">ml</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-116.3771667,33.417,12.46</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
