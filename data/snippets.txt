@@ -1,0 +1,24 @@
+// Loop through the countries array and create one marker for each city object
+for (var i = 0; i < data.length; i++) {
+
+  // Conditionals for countries points
+  var color = "";
+  if (features.Feature[i].properties.mag > 5) {
+    color = "yellow";
+  } else if (3 > features.Feature[i].properties.mag > 4) {
+    color = "blue";
+  } else if (2 > features.Feature.properties[i].mag > 3) {
+    color = "green";
+  } else {
+    color = "red";
+  }
+
+  // Add circles to map
+  L.circle(features.Feature.properties.mag, {
+    fillOpacity: 0.75,
+    color: "white",
+    fillColor: color,
+    // Adjust radius
+    radius: features.Feature.properties.mag * 1500
+  }).bindPopup("<h1>" + features.Feature.properties.mag + "</h1> <hr> <h3>Points: " + features.Feature.properties.mag[i] + "</h3>").addTo(myMap);
+}
